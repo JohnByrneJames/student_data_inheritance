@@ -22,10 +22,11 @@ empty. This demonstrates how it can use all the attributes and methods in its
 parent class.
 
 To inherit from a parent class, you simply put it in the brackets of a classes declaration: <br>
+`super().__init__` is taking all the members of the parent class and giving the child class access. <br>
 ```python
 class DevOpsStudent(StudentData):  
     def __init__(self, current_grade, current_trainer):
-        # super().__init__ is taking all the members of the parent class
+        
         super().__init__(current_grade, current_trainer)
         self.current_grade = current_grade
         self.current_trainer = current_trainer
