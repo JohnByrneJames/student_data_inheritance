@@ -17,7 +17,7 @@ as it is bad practice to keep repeating yourself. According to the **DRY** acron
 [**student_data**](student_data.py) **[Child/ Derived Class]**
 
 The student_data class has actually not got any unique methods of attributes, for the purpose of
-demonstrating the purpose of inheritance I left the child class
+demonstrating inheritance, the child class has been left
 empty. This demonstrates how it can use all the attributes and methods in its
 parent class.
 
