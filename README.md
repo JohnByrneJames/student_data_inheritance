@@ -21,3 +21,13 @@ demonstrating inheritance, the child class has been left
 empty. This demonstrates how it can use all the attributes and methods in its
 parent class.
 
+This is demonstrated in the parent classes file:
+⚫ Here John is an instance of the DevOpsStudent class, it has taken two values that are assigned into
+ into the attributes it inherited from the parent class. <br>
+ ⚫ Secondly the parent classes method called print_details() has been called in this class even though it has not been
+ created here, therefore it shows how inheritance is amazing when you want to allow classes to share attributes and methods.
+```python
+John = DevOpsStudent(70, "Billy bog-man")
+
+print(John.print_details())
+```
